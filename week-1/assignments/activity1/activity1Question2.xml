@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <person>
+        <name>Jinal Patel</name>
+        <age>22</age>
+        <hobbies>Cooking</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Painting</hobbies>
+    </person>
+
+    <person>
+        <name>Krina Patel</name>
+        <age>30</age>
+        <hobbies>Singing</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Reading</hobbies>
+    </person>
+
+    <person>
+        <name>Jinisha Shah</name>
+        <age>80</age>
+        <hobbies>Cooking</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Acting</hobbies>
+    </person>
+
+    <person>
+        <name>Kirti Thakkar</name>
+        <age>24</age>
+        <hobbies>Cooking</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Reading</hobbies>
+    </person>
+
+    <person>
+        <name>Yesha Mavani</name>
+        <age>28</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Painting</hobbies>
+    </person>
+
+    <person>
+        <name>Anisha Patel</name>
+        <age>26</age>
+        <hobbies>Reading</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Painting</hobbies>
+    </person>
+
+    <person>
+        <name>Palak Gohil</name>
+        <age>23</age>
+        <hobbies>Cooking</hobbies>
+        <hobbies>Acting</hobbies>
+        <hobbies>Painting</hobbies>
+    </person>
+
+    <person>
+        <name>Jinkal Patel</name>
+        <age>22</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Cooking</hobbies>
+    </person>
+
+    <person>
+        <name>Bhagyesh Khatri</name>
+        <age>20</age>
+        <hobbies>Singing</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Acting</hobbies>
+    </person>
+
+    <person>
+        <name>Akash Dholi</name>
+        <age>45</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Painting</hobbies>
+    </person>
+    
+</document>

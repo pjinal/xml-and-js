@@ -1,0 +1,2 @@
+Here n this activity, I have taken the data from the table specified and divided the tags as per the employee name, the rrot tag is employeedetails, 
+consisting of "Employee" tag which includes empName, salar and empNo.

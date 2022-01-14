@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>  
+<html>  
+<head>  
+<title>  Click button to display my Name </title>
+</head>  
+  
+<body style = "text-align:center;">  
+<h1>  Welcome to ITC5202  </h1>
+
+<p id = "B1" style =  "font-size: 20px; font-weight: bold;"> </p>
+  
+<button onClick="ButtonClick(this.id)">
+Click here to display my Name
+</button>
+  
+<p id = "B2" style = "font-size: 30px; font-weight: bold;"></p>
+
+<script>
+var B_B1 = document.getElementById("B1");
+var b_b2 = document.getElementById("B2"); 
+  
+function ButtonClick(clicked) {
+b_b2.innerHTML = "Jinal Patel ";
+}   
+</script>
+
+</body>  
+</html>

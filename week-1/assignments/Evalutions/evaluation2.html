@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>FORM SUBMISSION</title>
+<script LANGUAGE="JavaScript" type="text/javascript">
+  
+function display() {
+let validation =document.form1.email.value;  
+let positionatcursor=validation.indexOf("@");  
+let cursordotposition=validation.lastIndexOf("."); 
+//validating if the email id is correct  
+if (positionatcursor<1 || cursordotposition<positionatcursor+2 || cursordotposition+2>=validation.length)
+{  
+ alert("Please enter a valid e-mail address!!");    
+}  
+
+//to open a new window and display the messge
+DisplayNewWindow = window.open('','NewWin', 'width=500,height=500')
+message = "<li><b>Email ID: </b>" + document.form1.email.value + "</ul>";
+message += "<li><b>Date of Visit: </b>" + document.form1.dateov.value + "</ul>";
+message += "<li><b>FeedBack: </b>" + document.form1.feedbackcomment.value + "</ul>";
+DisplayNewWindow.document.write(message);
+}
+</script>
+
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+.container {
+border-radius: 3px;
+background-color: #c9f2f5;
+padding: 20px;
+}
+</style>
+
+</head>
+
+
+<body>
+<h1>FORM FOR FEEDBACK</h1>
+<div class="container">
+<form name="form1">
+<p><b>Email *:</b> <input type="text" name="email"></p><br/>
+<p><b>Date of Visit:<b>
+<input type="date" name="dateov" value="mm/dd/yyyy">
+</p>
+<label for="feedbackcomment">Your Comment:</label>
+<textarea id="feedbackcomment" name="feedbackcomment" style="height:100px; width: 500px;"></textarea>
+<p><input TYPE="BUTTON" VALUE="Send your Feedback" onClick="display(); return false"></p>
+</form>
+</div>
+</body>
+</html>

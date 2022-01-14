@@ -1,0 +1,8 @@
+On opening the XML files into the Excel Sheet it, first asked to open the XML file as "XML table", on selecting the XML table option, and opening the activity 1 in it, 
+It displayed all the data, I created in activity1 in a tabular format.
+It displayed 3 columns, with the heading "Name", "Age" and "Hobbies" respectively.
+It had name of the person, his/her age and the hobby assigned to that person in XML file.
+It had a drop down option to filter the people according to their name, age and hobby.
+
+On opening the second activity in the excel sheet, it displayed same table as that in question, with 3 columns and rows
+With the heading empNo, empName and Salary respectively. 

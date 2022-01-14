@@ -1,0 +1,2 @@
+In the 1st question I have taken the root tag as "About me" consisiting of sub-tags including name, age and hobbies.
+Whereas, in the second question, as there cannot be 2 root tag, I have taken "group" as the root tag, consists of sub-tags of person and his/her name, age and hobies tags inside.
