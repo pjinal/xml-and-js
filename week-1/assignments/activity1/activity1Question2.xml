@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document>
+<group>
     <person>
         <name>Jinal Patel</name>
         <age>22</age>
@@ -80,4 +80,4 @@
         <hobbies>Painting</hobbies>
     </person>
     
-</document>
+</group>
