@@ -1,0 +1,15 @@
+originalName {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+category{
+    white-space: pre;
+}
+
+
+* {
+    display: block;
+    color: maroon;
+}
+  
