@@ -1,4 +1,4 @@
-const products = require("../data/products");
+const products = require("./assignment");
 
 const getAll = ({ id, name, description, price } = {}) =>
   new Promise((resolve) => {
@@ -32,7 +32,7 @@ const getById = (id) =>
     } else {
       resolve({
         code: 404,
-        data: { message: `No product found for id ${id}` },
+        data: { message: `No country found for id ${id}` },
       });
     }
   });
