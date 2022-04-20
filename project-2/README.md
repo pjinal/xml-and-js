@@ -1,8 +1,8 @@
 #Project 2- Jinal Patel(N01495566)
 
 Steps: 
--1. Created a '''project-2''' folder
--2. In the terminal, change the directory from root folder to project-2 and run '''npm init -y''', which created package.json file
+- 1. Created a '''project-2''' folder
+- 2. In the terminal, change the directory from root folder to project-2 and run '''npm init -y''', which created package.json file
 -3. Installed browserify by using the command: '''npm i browserify''', which created package-lock.json file
 -4. As we had to create large json file, I got to know about the website, where we could generate random data named '''mockaroo.com''' , downloaded the file and added it to src/data/MOCK_DATA.json with 210 enteries in it.
 -5. Created a controller under '''src/controller/people.js''' 
