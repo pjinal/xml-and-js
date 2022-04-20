@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 2 -Jinal Patel(N01495566)</title>
+    <style>
+      .page {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div>
+        <form id="search-form-id">
+          <input
+            type="text"
+            name="id"
+            id="id"
+            placeholder="Enter person's Id"
+          />
+
+          <button type="submit">Search by ID</button>
+          <button type="reset">Clear</button>
+        </form>
+      </div>
+      <div>
+        <form id="search-form">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Search by Name"
+          />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Search by Email"
+          />
+          <button type="submit">Apply filters</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+      <div>
+        <table border="5" bgcolor="#DDA0DD">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+  </body>
+</html>
